@@ -121,6 +121,10 @@ const Footer = () => {
             </div>
           )}
         </a>
+        <br></br>
+        <a href="https://github.com/parthdasawant/portfolio">
+          <div>Revised by Parth Dasawant</div>
+        </a>
       </StyledCredit>
     </StyledFooter>
   );
