@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Flutter', 'Python', 'Dart', 'Firebase', 'Codemagic', 'GitHub'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,28 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Parth and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I am Parth Dasawant, a recent Computer Engineering graduate (Class of 2023) deeply
+              passionate about technology and innovation.
             </p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              My journey includes a valuable internship at {''}
+              <a href="https://ril.com">Reliance</a>, where I honed my problem-solving skills and
+              learned the importance of collaboration in the tech industry. Additionally, I secured
+              sponsorship from {''}
+              <a href="https://www.neurodynamic.ai/">Neurodynamics Research Labs Pvt. Ltd.</a> for
+              my final year project, strengthening my commitment to cutting-edge research and
+              development.
             </p>
-
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              Currently, I'm focused on Generative Artificial Intelligence (Gen AI) and Flutter
+              development, staying updated with the latest advancements in these fields. I recently
+              achieved a milestone by publishing {''}
+              <a href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading">
+                Paper Trading
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              on the Play Store, amassing over 8K downloads & growing. This experience reinforced my
+              dedication to user-centric design and efficient coding practices, highlighting the joy
+              of positively impacting users through technology.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
