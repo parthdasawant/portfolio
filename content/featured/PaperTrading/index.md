@@ -13,7 +13,7 @@ tech:
   - CodeMagic
 ---
 
-Developed & published this application for Futures and Options trading in Flutter, providing users with a realistic and risk-free trading experience.
-Implemented Clean Architecture using BLoC also CI/CD pipeline enabled.
-Integrated real-time market updates through various APIs and dynamic candlestick chart visualization, empowering users to make informed decisions and explore options chain strategies in NSE India’s market by trading virtually.
+Developed & published this application for **Futures and Options** trading in Flutter, providing users with a realistic and risk-free trading experience.
+Implemented **Clean Architecture** using **BLoC** also **CI/CD pipeline** enabled.
+Integrated **real-time market updates** through various APIs and dynamic candlestick chart visualization, empowering users to make informed decisions and explore options chain strategies in NSE India’s market by trading virtually.
 Implemented a day-wise trade history and P/L tracking feature for insights.

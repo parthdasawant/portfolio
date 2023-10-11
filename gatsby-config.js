@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Parth Dasawant',
-        short_name: 'Parth Dasawant',
+        name: 'ParthDasawant',
+        short_name: 'ParthDasawant',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
