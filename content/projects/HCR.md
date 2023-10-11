@@ -1,6 +1,6 @@
 ---
 date: '2022-08-29'
-title: 'Handwritten Character Recognizer(HCR)'
+title: 'Handwritten Character Recognizer (HCR)'
 github: 'https://github.com/parthdasawant/HCR'
 external: ''
 tech:
@@ -15,7 +15,7 @@ ios: ''
 android: ''
 ---
 
-About Handwritten Character Recognizer(HCR); able to recognize the handwritten alphanumeric characters(A-Z, a-z, 0-9) using Python + Flask.
+About Handwritten Character Recognizer(HCR); able to recognize the handwritten alphanumeric characters(A-Z, a-z, 0-9) using Python + Flask.\
 • EMNIST (ByMerge)
 • 90% accuracy
 • Minimalistic UI
