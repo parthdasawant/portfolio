@@ -7,6 +7,14 @@
 const path = require('path');
 const _ = require('lodash');
 
+const EventEmitter = require('events');
+
+// Create a new EventEmitter instance
+const myEmitter = new EventEmitter();
+
+// Increase the listener limit for this EventEmitter
+myEmitter.setMaxListeners(15);
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
   const postTemplate = path.resolve(`src/templates/post.js`);
