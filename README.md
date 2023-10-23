@@ -5,10 +5,15 @@
   Portfolio 
 </h1>
 <p align="center">
-  This is my personal portfolio website hosted... 
-<!--   <a href="https://parthdesai.vercel.app/" target="_blank">here</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a> -->
+  This is my personal portfolio website hosted on <a href="https://parthdasawant.netlify.app/">Netlify</a>
+  
 </p>
 
+<p align="center">
+  <a href="https://app.netlify.com/sites/parthdasawant/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/cd377b36-3019-4ffc-a4d0-226cf28ac1f1/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
 <p align="center">
   It was originally designed by <a href="https://github.com/bchiang7" target="_blank">Brittany Chiang</a> and can be found <a href="https://brittanychiang.com/" target="_blank">here</a>
