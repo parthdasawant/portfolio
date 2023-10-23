@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Portfolio | Parth Dasawant',
     description:
-      'I am a Software Engineer who is passionate about AI/ML and Flutter. In my free time, I like developing.',
+      'I am a Software Engineer who is passionate about AI/ML and Flutter. In my free time, I like to develope and also to play chess.',
     siteUrl: 'https://parthdasawant.vercel.app', // No trailing slash allowed!
     image: '/me.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@ParthDasawant',
