@@ -61,18 +61,19 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Parth Dasawant.</h2>;
-  const three = <h3 className="big-heading">I turn ideas into digital reality.</h3>;
+  // const three = <h3 className="big-heading">I turn ideas into digital reality.</h3>;
+  const three = <h3 className="big-heading">Constantly curious & leaning.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. I am also fascinated with Mathematics and wish to make a career out of
-        it someday. Also Ex. Software Engineering Intern at{' '}
+        I am a Computer Engineering graduate with Microsoft Azure Certified. I recently launched a
+        Paper Trading app on Google Play, which is CI/CD pipeline enabled. I'm enthusiastic about
+        contributing to transformative tech projects, and I have a deep passion for Mathematics. I
+        genuinely enjoy the process of transforming concepts into tech solution. Ex Intern at{' '}
         <a href="https://www.ril.com/" rel="noreferrer">
           Reliance
         </a>
-        . Currently, I’m focused on building accessible, human-centered products & leverage of
-        skills. Lastly I’m currently looking for new opportunities.
+        . Well, I’m currently looking for new opportunities.
       </p>
     </>
   );

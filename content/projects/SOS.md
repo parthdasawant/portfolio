@@ -10,7 +10,7 @@ tech:
   - OpenCV
   - Google Colab
 company: 'BVCOE'
-showInProjects: false
+showInProjects: true
 ios: ''
 ---
 
