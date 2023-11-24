@@ -7,16 +7,20 @@ module.exports = {
       url: 'https://github.com/parthdasawant',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/parthdasawant',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/parthdasawant',
+    },
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@parthdasawant',
     },
     {
       name: 'Twitter',
       url: 'https://twitter.com/parthdasawant',
     },
     {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/parthdasawant',
+      name: 'Instagram',
+      url: 'https://www.instagram.com/parthdasawant',
     },
   ],
 
