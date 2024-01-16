@@ -154,9 +154,9 @@ const About = () => {
               <a href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading">
                 Paper Trading
               </a>{' '}
-              on the Play Store, amassing over 8K downloads & growing. This experience reinforced my
-              dedication to user-centric design and efficient coding practices, highlighting the joy
-              of positively impacting users through technology.
+              on the Play Store, amassing over 88K+ downloads & growing. This experience reinforced
+              my dedication to user-centric design and efficient coding practices, highlighting the
+              joy of positively impacting users through technology.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
