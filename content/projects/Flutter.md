@@ -8,9 +8,10 @@ tech:
   - Dart
   - BLoC
 company: ''
-showInProjects: true
+showInProjects: false
 ios: ''
 android: ''
+youtube: ''
 ---
 
 Every Branch is dedicatied for the different app created with flutter.

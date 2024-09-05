@@ -259,14 +259,17 @@ const StyledProject = styled.li`
       background-color: var(--green);
       border-radius: var(--border-radius);
       vertical-align: middle;
+      transition: transform 0.3s ease; /* Smooth transition for zoom */
 
       &:hover,
       &:focus {
         background: transparent;
         outline: 0;
+        transform: scale(1.05); /* Slightly zoom in the image */
 
         &:before,
         .img {
+          // Remove the background and filter to disable the tint
           background: transparent;
           filter: none;
         }
@@ -283,15 +286,15 @@ const StyledProject = styled.li`
         bottom: 0;
         z-index: 3;
         transition: var(--transition);
-        background-color: var(--navy);
-        mix-blend-mode: screen;
+        background-color: transparent; // Make the background color transparent
+        mix-blend-mode: normal; // Set the blend mode to normal
       }
     }
 
     .img {
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1) brightness(90%);
+      mix-blend-mode: normal; // Set the blend mode to normal
+      filter: none; // Remove the grayscale, contrast, and brightness filter
 
       @media (max-width: 768px) {
         object-fit: cover;

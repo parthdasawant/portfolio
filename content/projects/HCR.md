@@ -4,18 +4,14 @@ title: 'Handwritten Character Recognizer (HCR)'
 github: 'https://github.com/parthdasawant/HCR'
 external: ''
 tech:
-  - Python
-  - Flask
   - Google Colab
   - EMINST
-  - Deep Learning
+  - Flask
 company: 'NRL'
 showInProjects: true
 ios: ''
 android: ''
+youtube: ''
 ---
 
-About Handwritten Character Recognizer(HCR); able to recognize the handwritten alphanumeric characters(A-Z, a-z, 0-9) using Python + Flask.\
-• EMNIST (ByMerge)
-• 90% accuracy
-• Minimalistic UI
+About Handwritten Character Recognizer(HCR); able to recognize the handwritten alphanumeric characters(A-Z, a-z, 0-9)

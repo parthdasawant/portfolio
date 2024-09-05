@@ -66,20 +66,20 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a Computer Engineering graduate with Microsoft Azure Certified. I recently launched a
-        Paper Trading app on Google Play, which is CI/CD pipeline enabled. I'm enthusiastic about
-        contributing to transformative tech projects, and I have a deep passion for Mathematics. I
-        genuinely enjoy the process of transforming concepts into tech solution. Ex Intern at{' '}
-        <a href="https://www.ril.com/" rel="noreferrer">
-          Reliance
-        </a>
-        . Well, I’m currently looking for new opportunities.
+        I’m a Software Engineer with a focus on AI. Launched the {''}
+        <a
+          href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading"
+          rel="noreferrer">
+          Paper Trading
+        </a>{' '}
+        app; passionate about creating transformative tech. Exploring the intersection of AI,
+        Software Dev and Maths.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
-      Résumé
+    <a className="email-link" href="/#about" rel="noreferrer">
+      About me
     </a>
   );
 

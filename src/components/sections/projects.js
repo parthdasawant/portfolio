@@ -182,6 +182,7 @@ const Projects = () => {
               tech
               github
               external
+              youtube
             }
             html
           }
@@ -213,7 +214,7 @@ const Projects = () => {
 
   const projectInner = node => {
     const { frontmatter, html } = node;
-    const { github, external, title, tech } = frontmatter;
+    const { github, external, title, tech, youtube } = frontmatter;
 
     return (
       <div className="project-inner">
@@ -236,6 +237,11 @@ const Projects = () => {
                   target="_blank"
                   rel="noreferrer">
                   <Icon name="External" />
+                </a>
+              )}
+              {youtube && (
+                <a href={youtube} aria-label="YouTube Link" target="_blank" rel="noreferrer">
+                  <Icon name="YouTube" />
                 </a>
               )}
             </div>
@@ -266,7 +272,9 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
+      {/* <div className="icon-wrapper">
+          <Icon name="Folder"/>
+        </div> */}
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
       </Link>

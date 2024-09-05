@@ -1,6 +1,7 @@
 ---
 date: '2022-08-21'
 title: 'Software Engineering Intern'
+tabtitle: 'Reliance'
 company: 'Reliance'
 location: 'Remote'
 range: 'June - August 2022'
