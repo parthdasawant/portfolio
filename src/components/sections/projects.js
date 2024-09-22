@@ -276,7 +276,13 @@ const Projects = () => {
           <Icon name="Folder"/>
         </div> */}
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
+        <span style={{ fontSize: '0.9em', fontFamily: 'Courier New' }}>
+          <b>&lt;/&gt;</b>
+        </span>{' '}
+        view the{' '}
+        <b>
+          <i>Archive</i>
+        </b>
       </Link>
 
       <ul className="projects-grid">

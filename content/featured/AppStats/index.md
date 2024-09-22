@@ -1,9 +1,10 @@
 ---
-date: '3'
+date: '2'
 title: 'Retrive App Stats using Flask'
 cover: './fig.png'
 
 github: 'https://github.com/parthdasawant/Downloads-Stats-Flask-Repo'
+external: 'https://github.com/parthdasawant/Downloads-Stats-Flask-Repo'
 cta: 'https://medium.com/@parthdasawant/get-the-google-play-store-app-stats-in-4-steps-b5a181c8e542'
 tech:
   - Flask

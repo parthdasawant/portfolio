@@ -62,18 +62,22 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Parth Dasawant.</h2>;
   // const three = <h3 className="big-heading">I turn ideas into digital reality.</h3>;
-  const three = <h3 className="big-heading">Constantly curious & learning.</h3>;
+  const three = (
+    <h3 style={{ color: 'var(--slate)', lineHeight: '0.9', marginTop: '5px' }}>
+      Pixel of Imagination → Line of Code
+    </h3>
+  );
   const four = (
     <>
       <p>
-        I’m a Software Engineer with a focus on AI. Launched the {''}
+        I’m a <b>Software Engineer</b> focusing on <b>AI</b>. Launched the {''}
         <a
           href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading"
           rel="noreferrer">
           Paper Trading
         </a>{' '}
-        app; passionate about creating transformative tech. Exploring the intersection of AI,
-        Software Dev and Maths.
+        app; passionate about creating transformative tech. Exploring the intersection of <b>AI</b>,{' '}
+        <b>Development</b> and <b>Maths</b>.
       </p>
     </>
   );

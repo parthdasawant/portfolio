@@ -23,7 +23,7 @@ const StyledText = styled.div`
 
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -127,7 +127,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Python', 'RAG', 'LLM', 'Flutter', 'Tensorflow', 'GitHub'];
+  const skills = [
+    'Python',
+    'RAG',
+    'LLM',
+    'Flutter',
+    'Tensorflow',
+    'GitHub',
+    'Docker',
+    'FastAPI',
+    'LangChain',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>

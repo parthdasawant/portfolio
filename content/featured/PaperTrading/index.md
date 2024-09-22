@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: 'Paper Trading'
 cover: './paper.png'
 github: 'https://github.com/parthdasawant/Paper-Trading'
