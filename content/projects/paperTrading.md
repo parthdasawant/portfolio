@@ -12,6 +12,7 @@ tech:
   - CodeMagic
 company: ''
 showInProjects: false
+youtube: ''
 ios: ''
 ---
 

@@ -19,9 +19,11 @@ const StyledAboutSection = styled.section`
   }
 `;
 const StyledText = styled.div`
+  text-align: justify;
+
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -125,7 +127,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Flutter', 'Python', 'Dart', 'Firebase', 'Codemagic', 'GitHub'];
+  const skills = [
+    'Python',
+    'RAG',
+    'LLM',
+    'Flutter',
+    'Tensorflow',
+    'GitHub',
+    'Docker',
+    'FastAPI',
+    'LangChain',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +147,37 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I am Parth Dasawant, a recent Computer Engineering graduate (Class of 2023) deeply
-              passionate about technology and innovation.
+              I am Parth Dasawant, a Computer Engineering graduate (Class of 2023) with a
+              Postgraduate Diploma in Artificial Intelligence (2024) deeply passionate about
+              technology and innovation.
             </p>
             <p>
               My journey includes a valuable internship at {''}
               <a href="https://ril.com">Reliance</a>, where I honed my problem-solving skills and
               learned the importance of collaboration in the tech industry. Additionally, I secured
               sponsorship from {''}
-              <a href="https://www.neurodynamic.ai/">Neurodynamics Research Labs Pvt. Ltd.</a> for
-              my final year project, strengthening my commitment to cutting-edge research and
-              development.
+              <a href="https://www.neurodynamic.ai/">Neurodynamics Research Labs</a> for my final
+              year project, strengthening my commitment to cutting-edge research and development.
             </p>
             <p>
-              Currently, I'm focused on Generative Artificial Intelligence (Gen AI) and Flutter
-              development, staying updated with the latest advancements in these fields. I recently
-              achieved a milestone by publishing {''}
+              Successfully developed and launched the {''}
               <a href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading">
                 Paper Trading
               </a>{' '}
-              on the Play Store, amassing over 100K+ downloads & growing. This experience reinforced
-              my dedication to user-centric design and efficient coding practices, highlighting the
-              joy of positively impacting users through technology.
+              app on the Google Play Store, which has garnered over 250K+ downloads. This project
+              incorporated a robust CI/CD pipeline, ensuring seamless updates and maintenance.
+              Through this experience, I have honed my skills in Flutter development and reinforced
+              my commitment to delivering user-centric and high-performance applications.
             </p>
-
+            <p>
+              Over the past year, I've focused on Generative AI, Large Language Models (LLMs) and
+              Retrieval-Augmented Generation (RAG) systems, notably developing {''}
+              <a href="https://github.com/ChatDocDev/CDoc">CDoc: Chat with your Document</a>, a
+              sophisticated RAG system for efficient multi-document querying using local LLMs and
+              advanced frameworks like LangChain and FastAPI. I also share my expertise with the
+              tech community through articles on {''}
+              <a href="https://medium.com/@parthdasawant">Medium</a>.
+            </p>
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 

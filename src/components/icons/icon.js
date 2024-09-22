@@ -16,6 +16,8 @@ import {
   IconPlayStore,
   IconStar,
   IconTwitter,
+  // Ensure you import your custom IconYouTube component
+  IconYouTube,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -50,6 +52,8 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'YouTube':
+      return <IconYouTube />;
     default:
       return <IconExternal />;
   }

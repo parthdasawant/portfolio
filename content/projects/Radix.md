@@ -11,6 +11,7 @@ company: 'BVCOE'
 showInProjects: true
 ios: ''
 android: ''
+youtube: ''
 ---
 
 It is basically converter for number systems. It supports binToDec, decToBin, decToHex, decToOct, hexToDec, octToDec

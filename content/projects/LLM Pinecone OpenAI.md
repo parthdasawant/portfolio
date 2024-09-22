@@ -11,6 +11,7 @@ tech:
 company: ''
 showInProjects: true
 ios: ''
+youtube: ''
 ---
 
 Dive into a LangChain-driven notebook that seamlessly combines Pinecone, OpenAI APIs, and Large Language Models (LLMs) to create a versatile text processing tool.

@@ -62,24 +62,28 @@ const Hero = () => {
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Parth Dasawant.</h2>;
   // const three = <h3 className="big-heading">I turn ideas into digital reality.</h3>;
-  const three = <h3 className="big-heading">Constantly curious & learning.</h3>;
+  const three = (
+    <h3 style={{ color: 'var(--slate)', lineHeight: '0.9', marginTop: '5px' }}>
+      Pixels of Imagination → Lines of Code
+    </h3>
+  );
   const four = (
     <>
       <p>
-        I am a Computer Engineering graduate with Microsoft Azure Certified. I recently launched a
-        Paper Trading app on Google Play, which is CI/CD pipeline enabled. I'm enthusiastic about
-        contributing to transformative tech projects, and I have a deep passion for Mathematics. I
-        genuinely enjoy the process of transforming concepts into tech solution. Ex Intern at{' '}
-        <a href="https://www.ril.com/" rel="noreferrer">
-          Reliance
-        </a>
-        . Well, I’m currently looking for new opportunities.
+        I’m a <b>Software Engineer</b> focused on <b>AI</b>. Published the {''}
+        <a
+          href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading"
+          rel="noreferrer">
+          Paper Trading
+        </a>{' '}
+        app; passionate about creating transformative tech. Exploring the intersection of <b>AI</b>,{' '}
+        <b>Development</b> and <b>Maths</b>.
       </p>
     </>
   );
   const five = (
-    <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
-      Résumé
+    <a className="email-link" href="/#about" rel="noreferrer">
+      About me
     </a>
   );
 

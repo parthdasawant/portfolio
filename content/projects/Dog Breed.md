@@ -10,9 +10,10 @@ tech:
   - AlexNet
   - AI
 company: 'Udacity'
-showInProjects: true
+showInProjects: false
 ios: ''
 android: ''
+youtube: ''
 ---
 
 Image Classification for a City Dog Show Project Goal Improving your programming skills using Python. In this project, I use a created image classifier to identify dog breeds. It is for one of the submission for the udacity nanodegree program.
