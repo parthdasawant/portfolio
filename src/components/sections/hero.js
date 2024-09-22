@@ -64,7 +64,7 @@ const Hero = () => {
   // const three = <h3 className="big-heading">I turn ideas into digital reality.</h3>;
   const three = (
     <h3 style={{ color: 'var(--slate)', lineHeight: '0.9', marginTop: '5px' }}>
-      Pixel of Imagination → Line of Code
+      Pixels of Imagination → Lines of Code
     </h3>
   );
   const four = (
