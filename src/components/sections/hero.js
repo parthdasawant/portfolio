@@ -70,7 +70,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a <b>Software Engineer</b> focusing on <b>AI</b>. Launched the {''}
+        I’m a <b>Software Engineer</b> focused on <b>AI</b>. Published the {''}
         <a
           href="https://play.google.com/store/apps/details?id=parthdasawant.co.in.paper_trading"
           rel="noreferrer">
